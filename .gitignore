@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+# generated / regenerable
+datasets/
+annotations_proposed/
+models/checkpoints/*/weights/
+models/checkpoints/bootstrap/
+models/checkpoints/*/train_batch*.jpg
+logs/server*.log
+runs/

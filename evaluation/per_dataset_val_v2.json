@@ -1,0 +1,62 @@
+{
+  "weights": "models/trained/v2_best.pt",
+  "split": "val",
+  "conf": 0.5,
+  "datasets": {
+    "body": {
+      "images": 61,
+      "tp": 61,
+      "fp": 0,
+      "fn": 0,
+      "wrong_class": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "failing_images": []
+    },
+    "top": {
+      "images": 62,
+      "tp": 62,
+      "fp": 0,
+      "fn": 0,
+      "wrong_class": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "failing_images": []
+    },
+    "top_body_separate": {
+      "images": 47,
+      "tp": 80,
+      "fp": 1,
+      "fn": 4,
+      "wrong_class": 1,
+      "precision": 0.975609756097561,
+      "recall": 0.9411764705882353,
+      "failing_images": [
+        "top_body_separate__frame_002581.jpg",
+        "top_body_separate__frame_002590.jpg",
+        "top_body_separate__frame_002608.jpg",
+        "top_body_separate__frame_002617.jpg",
+        "top_body_separate__frame_002937.jpg"
+      ]
+    },
+    "complete_enclosure": {
+      "images": 55,
+      "tp": 47,
+      "fp": 1,
+      "fn": 7,
+      "wrong_class": 1,
+      "precision": 0.9591836734693877,
+      "recall": 0.8545454545454545,
+      "failing_images": [
+        "complete_enclosure__complete_000477.jpg",
+        "complete_enclosure__complete_000479.jpg",
+        "complete_enclosure__complete_000480.jpg",
+        "complete_enclosure__complete_000482.jpg",
+        "complete_enclosure__complete_000483.jpg",
+        "complete_enclosure__complete_000488.jpg",
+        "complete_enclosure__complete_000491.jpg",
+        "complete_enclosure__complete_000492.jpg"
+      ]
+    }
+  }
+}

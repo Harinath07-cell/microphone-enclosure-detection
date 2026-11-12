@@ -1,0 +1,18 @@
+{
+  "args": {
+    "model": "yolo11n.pt",
+    "epochs": 80,
+    "imgsz": 640,
+    "batch": 16,
+    "patience": 15,
+    "name": "baseline",
+    "lr0": 0.001,
+    "weight_decay": 0.0005,
+    "fliplr": 0.5,
+    "degrees": 15,
+    "mosaic": 0.5
+  },
+  "trained": "2026-11-12T16:14:04.042394",
+  "device": "0",
+  "selected_by": "validation fitness (0.1*mAP50 + 0.9*mAP50-95)"
+}

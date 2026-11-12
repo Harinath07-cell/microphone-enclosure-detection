@@ -1,0 +1,118 @@
+{
+  "all_ready": true,
+  "datasets": {
+    "body": {
+      "exists": true,
+      "images": 492,
+      "unreadable": [],
+      "resolutions": {
+        "832x464": 492
+      },
+      "split_counts": {
+        "test": 69,
+        "train": 313,
+        "val": 110
+      },
+      "duplicates_within": 48,
+      "cross_split_duplicate_images": 48,
+      "labeled": 411,
+      "missing_labels": 0,
+      "empty_labels": 0,
+      "invalid_labels": {},
+      "wrong_class": {},
+      "missing_required_class": 0,
+      "class_counts": {
+        "body": 411
+      },
+      "stems_in_multiple_splits": 24,
+      "excluded": 33,
+      "unique_frames": 411,
+      "ready_for_training": true
+    },
+    "top": {
+      "exists": true,
+      "images": 522,
+      "unreadable": [],
+      "resolutions": {
+        "464x832": 522
+      },
+      "split_counts": {
+        "test": 81,
+        "train": 315,
+        "val": 126
+      },
+      "duplicates_within": 72,
+      "cross_split_duplicate_images": 72,
+      "labeled": 417,
+      "missing_labels": 0,
+      "empty_labels": 0,
+      "invalid_labels": {},
+      "wrong_class": {},
+      "missing_required_class": 0,
+      "class_counts": {
+        "top": 417
+      },
+      "stems_in_multiple_splits": 36,
+      "excluded": 33,
+      "unique_frames": 417,
+      "ready_for_training": true
+    },
+    "top_body_separate": {
+      "exists": true,
+      "images": 406,
+      "unreadable": [],
+      "resolutions": {
+        "1024x576": 406
+      },
+      "split_counts": {
+        "test": 35,
+        "train": 293,
+        "val": 78
+      },
+      "duplicates_within": 0,
+      "cross_split_duplicate_images": 0,
+      "labeled": 315,
+      "missing_labels": 0,
+      "empty_labels": 0,
+      "invalid_labels": {},
+      "wrong_class": {},
+      "missing_required_class": 0,
+      "class_counts": {
+        "body": 260,
+        "top": 150
+      },
+      "stems_in_multiple_splits": 0,
+      "excluded": 91,
+      "unique_frames": 315,
+      "ready_for_training": true
+    },
+    "complete_enclosure": {
+      "exists": true,
+      "images": 454,
+      "unreadable": [],
+      "resolutions": {
+        "1024x576": 454
+      },
+      "split_counts": {
+        "test": 57,
+        "train": 287,
+        "val": 110
+      },
+      "duplicates_within": 57,
+      "cross_split_duplicate_images": 48,
+      "labeled": 380,
+      "missing_labels": 0,
+      "empty_labels": 0,
+      "invalid_labels": {},
+      "wrong_class": {},
+      "missing_required_class": 0,
+      "class_counts": {
+        "complete_enclosure": 380
+      },
+      "stems_in_multiple_splits": 36,
+      "excluded": 26,
+      "unique_frames": 380,
+      "ready_for_training": true
+    }
+  }
+}
